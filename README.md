@@ -9,8 +9,10 @@
 
 >请使用Chrome浏览器
 
->如果没有安装gitpod的浏览器插件，可以用前缀方式打开Gitpod
+>如果没有安装gitpod的浏览器插件，可以用`Gitpod前缀`方式打开Gitpod,即`https://gitpod.io#你的仓库URL，注意要写完整地址，包括https://`
+
+Gitpod前缀:
 ```
-https://gitpod.io#你的仓库URL，注意要写完整地址，包括https://
+https://gitpod.io#
 ```
 
