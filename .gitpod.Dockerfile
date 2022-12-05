@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc:2022-07-20-05-50-58
+FROM gitpod/workspace-full-vnc:latest
 SHELL ["/bin/bash", "-c"]
 ENV ANDROID_HOME=$HOME/androidsdk \
     FLUTTER_VERSION=3.0.2-stable \
@@ -12,6 +12,9 @@ RUN install-packages openjdk-8-jdk -y \
         libnss3-dev \
         fonts-noto \
         fonts-noto-cjk \
+        tldr \
+        tmux \
+        neofetch \
     && update-java-alternatives --set java-1.8.0-openjdk-amd64
 
 # Make some changes for our vnc client and flutter chrome
