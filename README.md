@@ -1,18 +1,16 @@
-# Flutter app template
-The [Flutter](https://flutter.dev/) template, configured for [Gitpod](https://www.gitpod.io) to give you pre-built, ephemeral development environments in the cloud.
+# Our Flutter app template
 
-## Next Steps
+[Flutter](https://flutter.dev/) 项目仓库模板, 基于 [Gitpod](https://www.gitpod.io), 可用于Flutter的云端开发。
 
-Click the button below to start a new development environment:
+## 使用方法
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-flutter)
+1. 基于此模板创建你自己的Flutter项目仓库。
+2. 用Gitpod打开你新建的Flutter仓库，并开始你的开发。
 
-## Get Started With Your Own Project
+>请使用Chrome浏览器
 
-### A new project
+>如果没有安装gitpod的浏览器插件，可以用前缀方式打开Gitpod
+```
+https://gitpod.io#你的仓库URL，注意要写完整地址，包括https://
+```
 
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
-
-### An existing project
-
-Copy and commit the [`.gitpod.yml`](./.gitpod.yml) and [`.gitpod.Dockerfile`](./.gitpod.Dockerfile) to your existing project to have the same configuration of this template. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
