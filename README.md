@@ -11,7 +11,7 @@
 
 >如果没有安装gitpod的浏览器插件，可以用`Gitpod前缀`方式打开Gitpod,即`https://gitpod.io#你的仓库URL，注意要写完整地址，包括https://`
 
-Gitpod前缀:
+Gitpod前缀(点击复制):
 ```
 https://gitpod.io#
 ```
