@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc:latest
+FROM gitpod/workspace-full-vnc:2022-12-02-22-15-49
 SHELL ["/bin/bash", "-c"]
 ENV ANDROID_HOME=$HOME/androidsdk \
     FLUTTER_VERSION=3.0.2-stable \
