@@ -15,6 +15,7 @@ RUN install-packages openjdk-8-jdk -y \
         tldr \
         tmux \
         neofetch \
+        cmake \
     && update-java-alternatives --set java-1.8.0-openjdk-amd64
 
 # Make some changes for our vnc client and flutter chrome
