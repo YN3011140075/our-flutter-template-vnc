@@ -7,6 +7,7 @@ ENV PATH="$HOME/flutter/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_
 
 # Install Open JDK for android and other dependencies
 USER root
+RUN sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E88979FB9B30ACF2
 RUN install-packages openjdk-8-jdk -y \
         libgtk-3-dev \
         libnss3-dev \
@@ -16,7 +17,7 @@ RUN install-packages openjdk-8-jdk -y \
         tmux \
         neofetch \
         cmake
-#RUN update-java-alternatives --set java-1.8.0-openjdk-amd64
+RUN update-java-alternatives --set java-1.8.0-openjdk-amd64
 
 # Make some changes for our vnc client and flutter chrome
 # RUN sed -i 's|resize=scale|resize=remote|g' /opt/novnc/index.html \
